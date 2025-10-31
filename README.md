@@ -11,6 +11,7 @@
   - pritter
   - eslint
 - Markdown 문법 : 기본
+- 양손 타자 연습
 - GitHub : 상
   - git
 - Python : 하
