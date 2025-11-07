@@ -30,3 +30,6 @@ cd  c:/work/standard
 ```bash
 uv venv --python 3.14
 ```
+
+- https://github.com/ONEHO33/standard
+- https://pypi.org/project/requests/
