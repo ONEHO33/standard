@@ -9,5 +9,6 @@ __pycache__/
 .env
 .env_development
 .env_production
+.flake8
 __init__.py
 uv.lock

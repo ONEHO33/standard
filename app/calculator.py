@@ -7,12 +7,10 @@
 import logging
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger('app/calculator')
+logger = logging.getLogger("app/calculator")
+
 
 def add(a: int, b: int) -> int:
-    logging.info(f'Adding {a} and {b}')
-    logger.info(f'Adding {a} and {b}')
+    logging.info(f"Adding {a} and {b}")
+    logger.info(f"Adding {a} and {b}")
     return a + b
-
-if __name__ == "__main__":
-    print(add(1, 2))
