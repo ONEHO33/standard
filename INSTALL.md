@@ -51,7 +51,7 @@ pytest  --cov=appl  tests/  --cov-report=html
 #--- dotenv 환경 구성
 uv  add  python-dotenv
 
-#--- black, isort, flack8 환경 구성
+#--- black, isort, flake8 환경 구성
 # VSC에서 Shift_Command_P  >  Preferences: Configure Language Specific Settign  >  Python
 
 # .vscode/extensions.json 파일
