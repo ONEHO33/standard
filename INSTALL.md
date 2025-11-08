@@ -48,23 +48,10 @@ pytest
 pytest  --cov=appl  tests/
 pytest  --cov=appl  tests/  --cov-report=html
 
-#--- Debugging 환경 구성
-
 #--- dotenv 환경 구성
+uv  add  python-dotenv
 
-#--- Python Coding Convention
-
-
-
-
-
-
-
-
-
-
-
-
+#--- Debugging 환경 구성
 
 ```
 

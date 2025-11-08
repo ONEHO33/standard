@@ -1,7 +1,5 @@
 # README
 
-  
-
 ## 주요 명령어
 
 ```bash
@@ -13,6 +11,7 @@ source  .venv/bin/activate              #--- Linux
 #--- main 프로그램 실행
 python  main.py
 
-```
+#--- TDD (Test Driven Development)
+pytest
 
-  
+```

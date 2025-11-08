@@ -7,5 +7,7 @@ __pycache__/
 .coverage
 .DS_Store
 .env
+.env_development
+.env_production
 __init__.py
 uv.lock
