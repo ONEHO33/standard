@@ -1,8 +1,11 @@
-.DS_Store
-.env
-
 .git/
+.pytest_cache/
 .venv/
 
-.pytest_cache/
 __pycache__/
+
+.coverage
+.DS_Store
+.env
+__init__.py
+uv.lock

@@ -31,10 +31,28 @@ uv  venv  --python  3.12
 # prettier.config.mjs
 
 #--- ESLint 환경 구성
+# .vscode/extensions.json
+# .vscode/settings.json
+# eslint.config.mjs
 
 #--- TDD (Test Driven Development) 환경 구성
+#---     https://pypi.org/project/pytest
+#---     https://github.com/pytest-dev/pytest
+uv  add  pytest  --dev
+uv  add  pytest-cov  --dev
+pytest  --version
 
+# app/calculator.py
+# tests/test_calculator.py
+pytest
+pytest  --cov=appl  tests/
+pytest  --cov=appl  tests/  --cov-report=html
 
+#--- Debugging 환경 구성
+
+#--- dotenv 환경 구성
+
+#--- Python Coding Convention
 
 
 
