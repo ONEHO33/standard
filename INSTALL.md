@@ -23,6 +23,30 @@ cd  ~/work/standard
 uv  init
 uv  venv  --python  3.12
 
+#--- Pretter 환경 구성
+# .vscode/extensions.json
+# .vscode/settings.json
+# .prettierignore
+# .prettierrc
+# prettier.config.mjs
+
+#--- ESLint 환경 구성
+
+#--- TDD (Test Driven Development) 환경 구성
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 
