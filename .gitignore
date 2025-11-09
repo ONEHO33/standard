@@ -1,14 +1,20 @@
 .git/
 .pytest_cache/
 .venv/
-
+build/
+logs/
+node_modules/
+sessions/
 __pycache__/
 
 .coverage
 .DS_Store
 .env
-.env_development
-.env_production
+.env_*
 .flake8
-__init__.py
 uv.lock
+nohup.out
+package-lock.json
+__init__.py
+~*
+*.swp

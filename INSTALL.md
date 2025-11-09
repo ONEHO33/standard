@@ -62,6 +62,7 @@ uv  add  flake8  --dev
 # .flake8 파일
 
 # 파일 검사
+flake8
 flake8  main.py
 flake8  app/calculator.py
 
