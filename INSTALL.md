@@ -69,6 +69,9 @@ flake8  app/calculator.py
 #--- FastAPI 환경 구성
 uv  add  fastapi  uvicorn
 
+#--- Flask 환경 구성
+uv  add  flack
+
 #--- Debugging 환경 구성
 
 ```
