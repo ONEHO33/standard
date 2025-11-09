@@ -8,8 +8,12 @@ cd  ~/work/standard
 .venv\Scripts\activate                  #--- Window
 source  .venv/bin/activate              #--- Linux
 
-#--- main 프로그램 실행
-python  main.py
+#--- mainFastAPI 프로그램 실행
+uvicorn  app.mainFastAPI:app  --reload
+
+http://127.0.0.1:8000 
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/redoc
 
 #--- TDD (Test Driven Development)
 pytest

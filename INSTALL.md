@@ -63,8 +63,11 @@ uv  add  flake8  --dev
 
 # 파일 검사
 flake8
-flake8  main.py
+flake8  app/main.py
 flake8  app/calculator.py
+
+#--- FastAPI 환경 구성
+uv  add  fastapi  uvicorn
 
 #--- Debugging 환경 구성
 
