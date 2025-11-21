@@ -8,10 +8,17 @@ os.chdir('C:/work/standard/files') #\를 하나 더 덧붙입니다
 print(os.getcwd()) #현재 위치한 경로가 표시됩니다
 
 folderFile = os.listdir()
+type(folderFile)
+print(folderFile[0])
 # print(folderFile[0]) #폴더안의 파일 확인하기
 # folderFile = os.listdir() #folderFile이라는 객체에os.listdir()의 결괏값을 저장합니다.
 # type(folderFile) #folderFile의 타입을 알아봅시다!
 # print(folderFile)
+
+f = open('a.txt' , 'w')
+print(f)
+g = open('a.txt' , 'w').write('abc')
+print(g)
 
 # #open()함수 사용법
 # #파일 객체 = open('파일 이름',파일 열기 모드)
@@ -24,11 +31,18 @@ f = open('a.txt' , 'w') #F = open(파일 이름, 파일 열기모드)
 #          'r'       | 파일 내용을 읽을떄 사용
 #          'a'       | 파일에 내용을 추가할떄 사용
 # '''
-f.write('Hello World!\n')
-f.write('Hello World!')
+text = 'I went to school today'
+f.write(text)
+print(text)
 
+
+h = open('a.txt', 'r')
+print(h.read())
+h.seek(0)
+print(h.read())
+diary = h.read()
+print(text[:5])
 f.close()
-
 # f.close() #파일 닫기를 잊으면 안됌.
 # f.read() #파일을 읽으라는 의미.
 # f.seek() #파일 가장 처음으로 커서를 이동하라는 의미 입니다.
@@ -37,11 +51,12 @@ f.close()
 # with open(파일 이름, 파일 열기 모드) as f:
 # f에 수행할 명령
 # '''
+with open('a.txt','w') as f:
+    print(f.write(text))
 # '''
 # 파이썬에서 파일을 열떄 한글파일은 오류가 잘남
 # 해결방법:f = open('한글파일.txt', 'r', encoding = 'utf8')
 # '''
-
-
+f.close()
 
 
